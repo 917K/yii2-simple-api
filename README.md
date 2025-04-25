@@ -37,7 +37,7 @@ Start the container
     # or via Makefile
     make up
 
-Install dependtecies via Composer
+Install dependencies via Composer
 
     docker-compose exec app bash composer install
     # or via Makefile
