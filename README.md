@@ -36,7 +36,13 @@ Start the container
     docker-compose up -d
     # or via Makefile
     make up
-    
+
+Install dependtecies via Composer
+
+    docker-compose exec app bash composer install
+    # or via Makefile
+    make composer
+
 You can then check the required endpoint
 
     curl -X POST http://localhost:8000/api/sum-even \
