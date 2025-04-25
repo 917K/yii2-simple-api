@@ -39,7 +39,7 @@ Start the container
 
 Install dependencies via Composer
 
-    docker-compose exec app bash composer install
+    docker-compose exec app composer install
     # or via Makefile
     make composer
 
