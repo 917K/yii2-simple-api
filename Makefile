@@ -13,4 +13,4 @@ bash:
 	docker-compose exec app bash
 
 test:
-	docker-compose exec app phpunit
+	docker-compose exec app vendor/bin/phpunit
